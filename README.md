@@ -1,21 +1,55 @@
-# layoutio
+<h1 align="center">
+  <br>
+  <img src="https://tukerty.tmweb.ru/images/LYT.png" height="200">
+</h1>
 
-> Project for gathering neural network training samples
+<h4 align="center">Local service for gathering data for neural networks</h4>
 
-## Build Setup
+<p align="center">
+    <img src="https://img.shields.io/badge/NodeJS%20-8-green.svg" alt="php">
+    <img src="https://img.shields.io/badge/VueJS%20-2-brightgreen.svg" alt="vuejs">
+	<img src="https://img.shields.io/badge/Contributions%20-welcome-orange.svg">
+	<img src="https://img.shields.io/badge/License%20-MIT-yellow.svg">
+</p>
 
-``` bash
-# install dependencies
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#technologies">Technologies</a> •
+  <a href="#related">Credits</a> •
+  <a href="#license">License</a>
+</p>
+
+## Getting Started
+
+```bash
 npm install
-
-# serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Technologies
+
+```bash
+NodeJS
+VueJS
+```
+
+## Credits
+
+This software uses code from several open source packages.
+
+- [VueJS](https://github.com/vuejs/vue)
+- [Buefy](https://github.com/buefy/buefy)
+
+## License
+
+MIT
+
+---
+
+> Email [zede@ventumit.ru](mailto:zede@ventumit.ru) &nbsp;&middot;&nbsp;
+> Email [tukerty@gmail.com](mailto:tukerty@gmail.com) &nbsp;&middot;&nbsp;
+> GitHub [@Sdju](https://github.com/Sdju) &nbsp;&middot;&nbsp;
+> GitHub [@tukerty](https://github.com/tukerty) &nbsp;&middot;&nbsp;
+> VK [zede](https://vk.com/zede_tracer)
+> VK [tukerty](https://vk.com/tukerty)
