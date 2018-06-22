@@ -1,9 +1,9 @@
 <template>
     <div class="login">
-        <form action="">
+        <form action="" @submit="setLogin">
             <div class="field">
-                <input class="input" type="text" name="username" placeholder="Username">
-                <button class="button">Login</button>
+                <input class="input" type="text" name="username" placeholder="Username" v-model="login">
+                <button type="button" class="button">Login</button>
             </div>
         </form>
     </div>
@@ -14,11 +14,13 @@ export default {
   name: 'Login',
   data () {
     return {
-        
+        login: ''
     }
   },
   methods:{
-
+      setLogin(){
+          Vue.prototype.$login = this.login
+      }
   }
 }
 </script>
@@ -56,6 +58,11 @@ input:focus{
     outline: none;
     box-shadow: none;
 }
+input:focus::placeholder
+{
+    opacity: 0;
+}
+
 button{
     margin-top: 10px;
 }
